@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int x,a,b;
+    scanf("%d%d%d",&x,&a,&b);
+    int n=a*x;
+    int agency=b*x;
+    int p=n-agency-100;
+    printf("%d",p);
+    return 0;
+}
