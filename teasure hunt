@@ -1,0 +1,24 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int n,a,b,ben,bb;
+    scanf("%d%d%d%d%d",&n,&a,&b,&ben,&bb);
+    ben=n*a/100;
+    n=n-ben;
+    bb=n*b/100;
+    n=n-bb;
+    int p;
+    p=n/3;
+    printf("%d\n",ben);
+    printf("%d\n",bb);
+    printf("%d\n",p);
+    
+    
+    
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
