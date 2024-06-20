@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int d,m,y,n;
+    scanf("%d%d%d%d",&d,&m,&y,&n);
+    int s=d+m+y;
+    int p=3*4;
+    if((s%p==0)&&(n>=50)&&(n<100)){
+        printf("Cinema Day");
+    }
+    else{
+        printf("Not a Cinema Day");
+    }
+    
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */    
+    return 0;
+}
