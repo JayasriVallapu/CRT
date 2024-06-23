@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+    int bill,tb;
+    scanf("%d",&bill);
+    int disc=0;
+    while(bill>0){
+        tb=bill%10;
+        if(tb%2!=0){
+            disc=disc+tb;
+        }
+         bill/=10;
+    }
+    printf("%d",disc);
+        return 0;
+
+}
